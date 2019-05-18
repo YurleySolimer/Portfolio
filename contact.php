@@ -2,11 +2,11 @@
  
 $nombre = $ _POST['name'];
 $email = $ _POST['email'];
-$mensaje = $ _POST['message'];
+$mensaje = $ _POST['Message'];
 $para = 'yurley.solimer@gmail.com';
 $titulo = 'Solimer Contact';
  
-$msjCorreo = "Nombre: $name\n E-Mail: $email\n Mensaje:\n $message";
+$msjCorreo = "Nombre: $name\n E-Mail: $email\n Mensaje:\n $Message";
  
 if ($ _POST['submit']) {
 if (mail ($para, $titulo, $msjCorreo)) {
