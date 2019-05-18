@@ -250,7 +250,7 @@
 		            <p class="texto1">
 		              Ready to get your project started?
 		            </p>
-					<form id="contactform" action="contact.php" method="POST">
+					<form id="contactform" action="index.php" method="POST">
 						<div class="input-group mb-3">
 			                <div class="input-group-prepend">
 			                 <i class="fa fa-user input-group-text"></i>
@@ -360,6 +360,8 @@
 	   		</div>
        	</div>
     </footer>
+
+
 
 <!-- Copywritte -->
 
