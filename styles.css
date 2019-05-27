@@ -167,10 +167,10 @@ body {
 }
 
 .social i {
-  font-size: 48px;
+  font-size: 50px;
   margin: 10% 5% 0%;
   padding: 2%;
-  color: rgb(53, 55, 120);
+  color: rgba(48, 51, 107,1.0);
 }
 
 .social i:hover {
