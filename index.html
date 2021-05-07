@@ -1,280 +1,879 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>SOLIMER</title>
-	<link rel="icon"  type="image/png" href="logo-Sol.png">
+	<!-- Basic Page Needs
+    ================================================== -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-	
-	<!-- CDN Bootstrap -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Specific Meta
+    ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="Yurley Portfolio." />
+	<meta name="keywords"
+		content="Portfolio" />
 
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<!-- Titles
+    ================================================== -->
+	<title>Yurley Solimer</title>
 
-	<!-- CDN Font Awesome -->
-
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<!-- Bootstrap Scripts -->
-
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"> </script>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"> </script>
-
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"> </script>
-
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-	
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-	<!-- Tipografia -->
-
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<!-- Favicons
+    ================================================== -->
+	<link rel="shortcut icon" href="assets/images/logo/Solimer3.png" alt="Site Logo"  width="20" height="20" />
 
 
-	<!-- CSS Styles -->
+	<!-- Custom Font
+	================================================== -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+		rel="stylesheet">
 
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- CSS
+    ================================================== -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="assets/css/simple-scrollbar.css" />
+	<link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+	<link rel="stylesheet" href="assets/css/fontawesome.all.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
 
-	<link rel="stylesheet" type="text/css" href="styles.css">
-
+	<script src="assets/js/modernizr.min.js"></script>
 </head>
 
-<body>
-	
-	<!-- NAVIGATION -->
-
-	<nav class="navbar navbar-expand-sm fixed-top bg-white" >
+<body data-bs-spy="scroll" data-bs-target=".navigation-area">
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start Site Header
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	<header class="site-header default-header-style">
 		<div class="container">
-			<a href="index.html" class="navbar-brand">
-				<img src="img/logo.png" class="logo w-25">			
-			</a>
-			  <!-- Collapse button -->
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
-			    aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation">
-			    	<span class="navbar-toggler-icon"></span>
-			  </button>
+			<div class="row align-items-center">
+				<div class="col-12">
+					<div class="navigation-area">
+						<!-- Site Branding -->
+						<div class="site-branding">
+							<a href="index.html">
+								<img src="assets/images/logo/Solimer2.png" alt="Site Logo"  width="80" height="80" />
+							</a>
+						</div><!--  /.site-branding -->
 
-			  <!-- Collapsible content -->
-			  <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a href="#home" class="btn-nav ml-4 p-1"> Home </a>
-					</li>
+						<!-- Site Navigation -->
+						<div class="site-navigation">
+							<nav class="navigation">
+								<!-- Main Menu -->
+								<div class="menu-wrapper">
+									<div class="menu-content">
+										<ul class="mainmenu">
+											<li>
+												<a class="nav-link" href="#hero-block">Home</a>
+											</li>
+											<li>
+												<a class="nav-link" href="#service-block">Services</a>
+											</li>
+											<li>
+												<a class="nav-link" href="#about-block">About</a>
+											</li>
+											<li>
+												<a class="nav-link" href="#portfolio-block">Portfolio</a>
+											</li>
 
-					<li class="nav-item">
-						<a href="#Skills" class="btn-nav ml-4 p-1"> Services </a>
-					</li>
-
-					<li class="nav-item">
-						<a href="#Contact" class="btn-nav ml-4 p-1"> Contact </a>
-					</li>
-
-					<li class="nav-item">
-						<a href="https://yurleysolimer.blogspot.com" class="btn-nav ml-4 p-1"> Blog </a>
-					</li>						
-			
-				</ul>				
-			</div>			
-		</div>		
-	</nav>
-
-	<!-- HOME -->
-
-	<div id="home">
-		<div class="landing-text">
-			<h2 class="landing-sub" data-aos="fade-right" data-aos-delay="200">
-				Hey there! My name is
-			</h2>
-			<br>
-			<h1 class="text-uppercase landing-title" data-aos="zoom-in" data-aos-delay="800">
-				<strong> Yurley Solimer </strong>
-			</h1>
-			<br>	
-			<h2 class="landing-sub" data-aos="fade-left" data-aos-delay="1050">
-				I'm a <strong> Freelance Web Developer.</strong>
-			</h2>	
-		</div>		
-	</div>
+											<li>
+												<a class="nav-link" href="#contact-block">Contact</a>
+											</li>
+										</ul> <!-- /.menu-list -->
+									</div> <!-- /.hours-content-->
+								</div><!-- /.menu-wrapper -->
+							</nav>
+						</div><!-- /.site-navigation -->
+						<div class="hamburger-menus">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div><!-- /.hamburger-menus -->
+					</div><!-- /.navigation-area -->
+				</div><!-- /.col-12 -->
+			</div><!-- /.row -->
+		</div><!-- /.container-fluid -->
+		<div class="mobile-sidebar-menu sidebar-menu">
+			<div class="overlaybg"></div>
+		</div>
+	</header>
+	<!--~~./ end site header ~~-->
 
 
-	<!-- SKILLS -->
-
-	<section id=Skills>
-		<div class="container p-2">
-			<div class="row">
-				<div class="col-sm-12 skills-text">
-					<br>
-					<h1 class="text-center pt-5" data-aos="fade-down" data-aos-delay="100"> <strong> HOW CAN I HELP YOU? </strong>
-					</h1>
-					<br>
-					<p class="text-center p1 p-2" data-aos="fade-up" data-aos-delay="120"> I'm passionate about web design and development. I like to combine creativity and innovation in each of my works and create websites oriented to the user, in order to provide a good experience. With my skills I can:
-					</p>
-					
-					<p class="text-center p-2" data-aos="fade-up" data-aos-delay="140">
-					Create responsive websites that work on a wide range of devices.
-					Use updated technologies to achieve a quality website.
-					<br> Help with the production of a clean and functional design.
-					Provide support and maintenance to your website to maintain high standards on users.	
-					</p>
-					<br>
-				</div>				
+	<!--********************************************************-->
+	<!--********************* SITE CONTENT *********************-->
+	<!--********************************************************-->
+	<div class="site-content">
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+				Hero Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="hero-block" class="hero-block bg-image bg-overlay bg-parallax particles-version"
+			style="background-image: url('assets/images/bg/yurley1.jpg');">
+			<div id="particles-js"></div>
+			<div class="waves-effect bottom" style="background-image: url('assets/images/others/shape.png');">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="hero-content-area">
+							<div class="hero-desc">
+								Hi, I'm
+							</div>
+							<h2 class="hero-title">
+								Yurley Solimer
+							</h2><!-- /.hero-title -->
+							<ul >
+								<li>Product Managment</li>
+								<li>Web Development</li>
+								<li>UI Design</li>
+							</ul>
+							<a href="https://github.com/YurleySolimer" class="btn btn-primary">My GitHub</a>
+						</div><!-- /.hero-content-area -->
+					</div>
+				</div>
 			</div>
 		</div>
-	</section>
+		<!-- /.hero-block -->
 
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start Services Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="service-block" class="services-block pd-t-170">
+			<div class="container container-1200">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="section-title text-center">
+							<h2 class="title-main">
+								01 <span>Services</span>
+							</h2><!-- /.title-main -->
+							<p class="sub-title">Bet on the Future</p>
+						</div><!-- /.section-title -->
+					</div><!-- /.col-lg-8 -->
+				</div><!-- /.row -->
 
-
-	<!-- Contact -->
-	<section id="Contact" class="bg-light py-5">
-		<div class=" container">
-			<div class="row">
-		 	   <div class="col-sm-6">
-		            <h3 class="texto1"> <strong> CONTACT </strong> </h3>
-		            <p class="texto1">
-		              Ready to get your project started?
-		            </p>
-					<form id="contactform" action="contact.php" method="POST">
-						<div class="input-group mb-3">
-			                <div class="input-group-prepend">
-			                 <i class="fa fa-user input-group-text"></i>
-			                </div>
-			                <input type="text" class="form-control" name="name" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
-			              </div>
-
-			              <div class="input-group mb-3">
-			                <div class="input-group-prepend">
-			                  <i class="fa fa-envelope input-group-text"></i>
-			                </div>
-			                <input type="text" class="form-control" name="email" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
-			              </div>
-
-			              <div class="input-group mb-3">
-			                <div class="input-group-prepend">
-			                  <i class="fa fa-pencil-alt input-group-text"></i>
-			                </div>
-			                <textarea name="" cols="30" rows="10" placeholder="Message" name="message" class="form-control"></textarea>
-			              </div>
-
-			              <button type="submit" class="btn btn2 text-white">Send</button>
-					</form>
-				</div>
- 
-	          
-			
-			<!-- Card --> 
-	          	<div class="col-sm-6">
-	          		<div class="card card-me m-2 p-2">
-	          			<div class="card-header card-me-header">
-	          				<img src="img/yur.jpg" class="rounded-circle w-25">
-	          			
-	          				<h4 class="text-center text-white pt-3"> <strong> YURLEY SOLIMER </strong> </h4> 
-	          				<h6 class="p-3"> I wake up everyday telling me that I'm an positive influence to the world. </h6>         			
-	          			</div>
-	          			<div class="card-body p-1">
-	          				<div class="card-text">
-	             			 	<a data-toggle="collapse" data-target="#about" class="btn"> 
-	             			 		<i class="fa fa-angle-double-down"> </i>
-	   							</a>
-								<div id="about" class="collapse bg-white">
-									<p class="text-dark p-about ml-1 mr-1"> 
-									- I'm from Venezuela, currently study Systems Engineering.
-									<br> - HTML, CSS, JS are my skills, with knowledge about frameworks and libraries like Bootstrap and ReactJS.
-									<br> - Among others of my knowledge are C ++, Java and SQL database managers.
-									<br> - I'm constantly learning and updating the tools I use to develop websites much more effective.
-										
-									</p>
-								</div>
-	          				</div>        			
-	          			</div>
-	          			<div class="card-footer bg-white">
-	          				<div class="container card-me-footer">
-	          					<div class="row">
-	          						<div class="col-sm-6">
-	       						 	<p class="text-dark pt-4">Innovate to Transcend</p>
-	          						</div>
-	          						<div class="col-sm-6">
-	          							<img src="img/logoDef.png" class="w-75"> 
-	          						</div>          					
-	          					</div>          				
-	          				</div>
-	          					<a href="https://yurleysolimer.blogspot.com" title="blog" class="btn-sm btn-outline-dark"> Visit my Blog </a>   
-	          			</div>          		
-	          		</div>
-	        	</div>
-  			</div>
+				<div class="row services-items-list gutters-30">
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="#">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/1.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Product Design</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="#">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/2.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">UX-UI Testing</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="#">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/3.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">App Development</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="#">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/4.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Web Development</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="#">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/6.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Web analysis</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="#">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/7.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Product Managment</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					
+					<!-- /.col-lg-4 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
 		</div>
-	</section>
+		<!--~~./ end services block ~~-->
 
-<!-- Footer -->
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start About Us Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="about-block" class="about-us-block about-style-two pd-t-170">
+			<div class="container container-1200">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="section-title text-center">
+							<h2 class="title-main">
+								02 <span>About Me</span>
+							</h2><!-- /.title-main -->
+							<p class="sub-title">We work with you, Not for you</p>
+						</div><!-- /.section-title -->
+					</div><!-- /.col-lg-8 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+			<div class="about-block-content">
+				<div class="bg-image bg-overlay about-bg" style="background-image:url('assets/images/bg/bg2.jpg')">
+				</div>
+				<div class="container container-1200">
+					<div class="row align-items-center flex-column-reverse flex-lg-row">
+						<div class="col-md-10 col-lg-6">
+							<div class="fanfact-promo-numbers">
+								<div class="promo-number">
+									<div class="odometer" data-odometer-final="12">0</div><!-- /.odometer -->
+									<h4 class="promo-title">Happy Client</h4><!-- /.promo-title -->
+								</div><!-- /.promo-number -->
+								<div class="promo-number">
+									<div class="odometer" data-odometer-final="5">0</div><!-- /.odometer -->
+									<h4 class="promo-title">Years Experience</h4><!-- /.promo-title -->
+								</div><!-- /.promo-number -->
+								<div class="promo-number">
+									<div class="odometer" data-odometer-final="4">0</div><!-- /.odometer -->
+									<h4 class="promo-title">Mentories</h4><!-- /.promo-title -->
+								</div><!-- /.promo-number -->
+								<div class="promo-number">
+									<div class="odometer" data-odometer-final="8">0</div><!-- /.odometer -->
+									<h4 class="promo-title">Project Complete</h4><!-- /.promo-title -->
+								</div><!-- /.promo-number -->
+							</div><!-- /.fanfact-promo-numbers -->
+						</div><!-- /.col-lg-6 -->
+						<div class="col-md-10 col-lg-6">
+							<div class="about-content">
+								<h3 class="heading">Yurley Solimer</h3>
+								<p>Hi, I’m Yurley Solimer. I'm Systems Engineer focused and develop digital products,with over 5+ 
+									years of experiences in wide range of disciplines: manager, leader, entrepreneur, web developer, 
+									analyst, traveler, singer and more.
+									<br><br>
+									I don’t like to define myself by the work I’ve done. I define myself by the work I want to do.  
+									<br><br>
+									Since beginning my journey as a freelance nearly 5 years ago, I've done remote work for agencies, consulted for startups, 
+									and collaborated with talented people to create digital products for both business and consumer use.
+									<br><br>
+									I like to keep learning, continue challenging myself, and do interesting things to create a best world.
+								
+								</p>
+								<div class="skill-list">
+									<div class="single-skill">
+										<h3 class="skill-title">JavaScript</h3>
+										<div class="progress">
+											<div class="progress-bar" style="width: 90%">
+												<span>88%</span>
+											</div>
+										</div>
+									</div>
+									<!-- /.single-skill -->
+									<div class="single-skill">
+										<h3 class="skill-title">Node JS</h3>
+										<div class="progress">
+											<div class="progress-bar" style="width: 88%">
+												<span>82%</span>
+											</div>
+										</div>
+									</div><!-- /.single-skill -->
+									<div class="single-skill">
+										<h3 class="skill-title">SQL</h3>
+										<div class="progress">
+											<div class="progress-bar" style="width: 85%">
+												<span>80%</span>
+											</div>
+										</div>
+									</div><!-- /.single-skill -->
+									<div class="single-skill">
+										<h3 class="skill-title">No-SQL</h3>
+										<div class="progress">
+											<div class="progress-bar" style="width: 85%">
+												<span>72%</span>
+											</div>
+										</div>
+									</div><!-- /.single-skill -->
+								</div><!-- /.skill-list -->
+							</div><!-- /.about-content -->
+						</div><!-- /.col-lg-6 -->
+					</div>
+				</div><!-- /.container -->
+			</div>
+		</div>
+		<!--~~./ end about us block ~~-->
 
-    <footer>
-    	<ul class="social">
-			<li>
-				<a href="https://instagram.com/yurleysolimer/" target="_blank">
-					<i class="fa fa-instagram"> </i>
-				</a>
-			</li>
-			<li>
-				<a href="https://github.com/YurleySolimer" target="_blank"> 
-					<i class="fa fa-github"> </i>
-				</a>
-			</li>
-			<li>
-				<a href="mailto:yurley.solimer@gmail.com"> 
-					<i class="fa fa-envelope"> </i>
-				</a>
-			</li>
-			<li>
-				<a href="https://twitter.com/yurleySolimer" target="_blank"> 
-					<i class="fa fa-twitter"> </i>
-				</a>
-			</li>
-			<li>
-				<a href="https://blog.solimer.xyz"> 
-					<i class="fa fa-rss"> </i>
-				</a>
-			</li>
-			<li>
-				<a href="https://www.linkedin.com/in/yurley-solimer-748a45125/" target="_blank"> 
-					<i class="fa fa-linkedin"> </i>
-				</a>
-			</li>
-		</ul>    	
-    </footer>
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start Testimonial Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="testimonial-block" class="testimonial-block pd-t-170">
+			<div class="container container-1200">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="section-title text-center">
+							<h2 class="title-main">
+								03 <span>Testimonial</span>
+							</h2><!-- /.title-main -->
+							<p class="sub-title">Bet on the Future</p>
+						</div><!-- /.section-title -->
+					</div><!-- /.col-lg-8 -->
+				</div><!-- /.row -->
+
+				<div class="row justify-content-center">
+					<div class="col-lg-11">
+						<!-- Testimonial Slider -->
+						<div class="owl-carousel testimonial-slider carousel-nav-circle carousel-nav-center">
+							<div class="testimonial-item">
+								<div class="client-area">
+									<div class="client-thumb">
+										<img src="assets/images/testimonail/1.jpg" alt="Luis Mendez" />
+									</div><!-- /.client-thumb -->
+									<div class="client-info">
+										<h4 class="client-name">Luis Mendez</h4>
+										<p class="client-designation">
+											Co Founder - We Grow
+										</p>
+									</div><!-- /.client-info -->
+								</div>
+								<div class="details">
+									<p>
+										"From our company, we are totally gratefull of work with Yurley, she help us 
+										to become into reality our project, and we are already taking revenue from the platform. People like Yurley 
+										are those that really 
+										give an added value to this kind of marketplaces."
+									</p>
+								</div><!-- /.details -->
+							</div><!-- /.testimonial-item -->
+							<div class="testimonial-item">
+								<div class="client-area">
+									<div class="client-thumb">
+										<img src="assets/images/testimonail/2.png" alt="Jeam Melendez" />
+									</div><!-- /.client-thumb -->
+									<div class="client-info">
+										<h4 class="client-name">Jeam Melendez</h4>
+										<p class="client-designation">
+											CEO - Talleres Online
+										</p>
+									</div><!-- /.client-info -->
+								</div>
+								<div class="details">
+									<p>
+										"Yurley was a real pleasure to work with and we look forward to working with her again.
+										 She’s definitely the kind of developer you can trust with a project from start to finish."
+									</p>
+								</div><!-- /.details -->
+							</div><!-- /.testimonial-item -->
+						</div>
+					</div>
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<!--~~./ end testimonial block ~~-->
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start Portfolio Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="portfolio-block" class="portfolio-block pd-t-170">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="section-title text-center">
+							<h2 class="title-main">
+								04 <span>Portfolio</span>
+							</h2><!-- /.title-main -->
+							<p class="sub-title">Bet on the Future</p>
+						</div><!-- /.section-title -->
+					</div><!-- /.col-lg-8 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+
+			<div class="container custom-container-1650">
+				<div class="row">
+					<div class="col-12 text-center">
+						<ul class="portfolio-filter">
+							<li>
+								<a href="#" data-filter="*" class="filter active">All</a>
+							</li>
+
+							<li>
+								<a href="#" data-filter=".application" class="filter">Applications</a>
+							</li>
+
+							<li>
+								<a href="#" data-filter=".web" class="filter">Web design</a>
+							</li>
+							<li>
+								<a href="#" data-filter=".mockups" class="filter">Mockups</a>
+							</li>
+
+							<li>
+								<a href="#" data-filter=".personal" class="filter">Personal</a>
+							</li>
+						</ul>
+					</div><!-- /.col-12 -->
+				</div><!-- /.row -->
+				<div class="row portfolio-grid gutters-40">
+					<div class="item col-lg-4 col-xl-3 col-md-6 web">
+						<a class="portfolio-item" href="https://artelibre.mx">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/1.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<p class="cat">ArteLibre</p>
+									<h3 class="heading">Dashboard</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 print application">
+						<a class="portfolio-item" href="https://talleresonline.com.pe/">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/2.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<p class="cat">Talleres Online</p>
+									<h3 class="heading">Web & App Development</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
 
 
+					<div class="item col-lg-4 col-xl-3 col-md-6 application">
+						<a class="portfolio-item" href="https://app.mrwit.co">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/3.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<p class="cat">Mr Wit</p>
+									<h3 class="heading">App Development</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
 
-<!-- Copywritte -->
+					<div class="item col-lg-4 col-xl-3 col-md-6 web">
+						<a class="portfolio-item" href="https://app.mrwit.co">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/4.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<p class="cat">Mr Wit</p>
+									<h3 class="heading">Dashboard Desing</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
 
-    <footer class="second-footer">
-    	<p>
-    		&copy; 2019 SOLIMER
-    	</p>
-    </footer>
+					<div class="item col-lg-4 col-xl-3 col-md-6 print web">
+						<a class="portfolio-item" href="https://imarketing.pe">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/5.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<p class="cat">IMarketing</p>
+									<h3 class="heading">Landing Page Design</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
 
-<!-- Scripts -->
+					<div class="item col-lg-4 col-xl-3 col-md-6 mockups">
+						<a class="portfolio-item" href="#">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/6.jpeg" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<p class="cat">CarHelp</p>
+									<h3 class="heading">Dashboard Design</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
 
+					<div class="item col-lg-4 col-xl-3 col-md-6 mockups">
+						<a class="portfolio-item" href="#">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/7.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<p class="cat">Payment</p>
+									<h3 class="heading">Wallet Design</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 mockups">
+						<a class="portfolio-item" href="https://app.mrwit.co">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/8.jpeg" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<p class="cat">MrWit</p>
+									<h3 class="heading">Admin Panel Design</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 web">
+						<a class="portfolio-item" href="https://talleresonline.com.pe/">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/9.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<p class="cat">Payment</p>
+									<h3 class="heading">Suscription Integration</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 print personal">
+						<a class="portfolio-item" href="#">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/10.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<p class="cat">ToDoList</p>
+									<h3 class="heading">Application Development</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					
+
+					
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div>
+		<!--~~./ end portfolio block ~~-->
+
+		
+				
+	
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start Work brand Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div class="work-brand-block bg-white-smoke">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<!-- Brands Carousel -->
+						<div class="owl-carousel brands-carousel">
+							<div class="brands-link">
+								<img src="assets/images/brand/1.png" alt="logo" />
+							</div>
+							<div class="brands-link">
+								<img src="assets/images/brand/2.png" alt="logo" />
+							</div>
+							<div class="brands-link">
+								<img src="assets/images/brand/3.png" alt="logo" />
+							</div>
+							<div class="brands-link">
+								<img src="assets/images/brand/4.png" alt="logo" />
+							</div>
+						</div>
+					</div>
+					<!--~./ end brands carousel ~-->
+				</div>
+			</div>
+		</div>
+		<!--~~./ end work brand block ~~-->
+
+	
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start Site Footer
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<footer id="contact-block" class="site-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="contact-block">
+							<div class="section-title">
+								<h2 class="title-main">
+									05 <span>Contact</span>
+								</h2><!-- /.title-main -->
+								<p class="sub-title">Let's work together</p>
+							</div><!-- /.section-title -->
+							<div class="contact-form-area">
+								<form id="contact_form" class="contact-form" action="#">
+									<div class="row gx-4">
+										<div class="col-lg-6 col-md-6">
+											<div class="form-group">
+												<input id="name" name="name" type="text" class="form-control" placeholder="Your Name*">
+											</div>
+										</div>
+										<!--./ col-lg-6-->
+										<div class="col-lg-6 col-md-6">
+											<div class="form-group">
+												<input class="form-control" id="email" name="email" type="email" placeholder="Your Email*">
+											</div>
+										</div>
+										<!--./ col-lg-6 -->
+										<div class="col-12">
+											<div class="form-group">
+												<textarea id="message" name="message" class="form-control" rows="4"
+													placeholder="Anything that we can help you?"></textarea>
+											</div>
+										</div><!-- /.col-12 -->
+										<div class="col-12">
+											<button type="submit" class="btn btn-primary">Send Me</button>
+										</div>
+										<!--./ col-lg-6 -->
+									</div><!-- /.row -->
+								</form><!-- /.contact-form -->
+							</div><!-- /.contact-form-area -->
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="footer-content-wrapper">
+							<div class="footer-widget-area">
+								<div class="row">
+									<!--~~~~~ Start Widget Links ~~~~~-->
+									<div class="col-lg-6 col-md-6">
+										<aside class="widget widget_links">
+											<h2 class="widget-title"><span>Quick Link</span></h2>
+											<div class="widget-content">
+												<ul>
+													<li><a href="#portfolio-block">Portfolio</a></li>
+													<li><a href="#about-block">About</a></li>
+													<li><a href="#service-block">Services</a></li>
+												</ul>
+											</div>
+										</aside>
+									</div>
+									<!--~./ end links widget ~-->
+									<!--~~~~~ Start Widget Links ~~~~~-->
+									<div class="col-lg-6 col-md-6">
+										<aside class="widget widget_contact">
+											<div class="widget-content">
+												<div class="single-contact-info">
+													<div class="icon">
+														<i class="fas fa-envelope"></i>
+													</div>
+													<p><a href="yurley.solimer@gmail.com">yurley.solimer@gmail.com</a></p>
+												</div><!-- /.single-contact-info -->
+												<div class="single-contact-info">
+													<div class="icon">
+														<i class="fas fa-envelope"></i>
+													</div>
+													<p><a href="yurley.solimer@wegrow.dev">yurleysolimer@wegrow.dev</a></p>
+												</div><!-- /.single-contact-info -->
+												<div class="single-contact-info">
+													<div class="icon">
+														<i class="fas fa-phone-alt"></i>
+													</div>
+													<p>+58 - 4143327564</p>
+												</div><!-- /.single-contact-info -->
+											</div>
+										</aside>
+									</div>
+									<!--~./ end links widget ~-->
+								</div>
+							</div>
+							<!--~./ end footer widgets area ~-->
+							<div class="copyright-text text-center">
+								<p>Copyright @ <a href="#">Solimer </a> 2021</p>
+							</div>
+							<!--~./ end copyright text ~-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--~./ end site footer ~-->
+	</div>
+	<!--~~./ end site content ~~-->
+
+	<!-- All The JS Files
+			================================================== -->
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/simple-scrollbar.min.js"></script>
+	<script src="assets/js/background-parallax.js"></script>
+	<script src="assets/js/theia-sticky-sidebar.min.js"></script>
+	<script src="assets/js/ResizeSensor.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="assets/js/packery-mode.pkgd.min.js"></script>
+	<script src="assets/js/scrolla.jquery.min.js"></script>
+	<script src="assets/js/odometer.min.js"></script>
+	<script src="assets/js/isInViewport.jquery.js"></script>
+	<script src="assets/js/contact.js"></script>
+	<script src="assets/js/main.js"></script>
+	<!-- main-js -->
+	<!-- This script use for this page -->
+	<script src="assets/js/particle-animation.js"></script>
 	<script>
-		$(document).ready(function(){
-		      $(".linkfeat").hover(
-		        function () {
-		            $(".textfeat").show(500);
-		        },
-		        function () {
-		            $(".textfeat").hide(500);
-		        }
-		    );
-		});
+		particlesJS('particles-js', {
+			"particles": {
+				"number": {
+					"value": 50,
+					"density": {
+						"enable": true,
+						"value_area": 800
+					}
+				},
+				"color": {
+					"value": "#888"
+				},
+				"shape": {
+					"type": "circle",
+					"stroke": {
+						"width": 0,
+						"color": "#888"
+					},
+					"polygon": {
+						"nb_sides": 5
+					},
+					"image": {
+						"src": "img/github.svg",
+						"width": 100,
+						"height": 100
+					}
+				},
+				"opacity": {
+					"value": 0.5,
+					"random": false,
+					"anim": {
+						"enable": false,
+						"speed": 3,
+						"opacity_min": 0.1,
+						"sync": false
+					}
+				},
+				"size": {
+					"value": 5,
+					"random": true,
+					"anim": {
+						"enable": false,
+						"speed": 40,
+						"size_min": 0.1,
+						"sync": false
+					}
+				},
+				"line_linked": {
+					"enable": true,
+					"distance": 150,
+					"color": "#888",
+					"opacity": 0.4,
+					"width": 1
+				},
+				"move": {
+					"enable": true,
+					"speed": 6,
+					"direction": "none",
+					"random": false,
+					"straight": false,
+					"out_mode": "out",
+					"attract": {
+						"enable": false,
+						"rotateX": 600,
+						"rotateY": 1200
+					}
+				}
+			},
+			"interactivity": {
+				"detect_on": "canvas",
+				"events": {
+					"onhover": {
+						"enable": true,
+						"mode": "repulse"
+					},
+					"onclick": {
+						"enable": true,
+						"mode": "push"
+					},
+					"resize": true
+				},
+				"modes": {
+					"grab": {
+						"distance": 400,
+						"line_linked": {
+							"opacity": 1
+						}
+					},
+					"bubble": {
+						"distance": 400,
+						"size": 40,
+						"duration": 2,
+						"opacity": 8,
+						"speed": 3
+					},
+					"repulse": {
+						"distance": 200
+					},
+					"push": {
+						"particles_nb": 4
+					},
+					"remove": {
+						"particles_nb": 2
+					}
+				}
+			},
+			"retina_detect": true,
+			"config_demo": {
+				"hide_card": false,
+				"background_color": "#b61924",
+				"background_image": "",
+				"background_position": "50% 50%",
+				"background_repeat": "no-repeat",
+				"background_size": "cover"
+			}
+		}
+		);
 	</script>
-
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<!-- <script src="js/index.js"></script> -->
-	<script>
-			AOS.init();
-</script>
 </body>
-</html>
 
+</html>
